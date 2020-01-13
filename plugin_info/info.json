@@ -1,0 +1,11 @@
+{
+	"id" : "XeeCloud",
+	"name" : "XeeCloud",
+	"description" : "Plugin XeeCloud pour affichage des infos voitures connectees",
+	"licence" : "AGPL",
+	"author" : "mx85",
+	"require" : "3.0",
+	"category" : "devicecommunication",
+	"hasDependency" : 0,
+	"hasOwnDeamon" : 0
+}

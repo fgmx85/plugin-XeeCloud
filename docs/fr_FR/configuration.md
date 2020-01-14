@@ -1,0 +1,29 @@
+## Configuration du plugin
+
+Après téléchargement du plugin, il vous suffit juste d'activer celui-ci.
+
+Pour accéder aux données du cloud Xee, il faut :
+
+* S'inscrire sur dev.xee.com (https://dev.xee.com) et ajouter une application pour obtenir client_id et client_secret. 
+* Saisir le client_id et client_secret dans la page de configuration du plugin.
+
+!!! Pour la phase d'authentification, l’accès a Jeedom doit être possible de l’extérieur (à partir d'internet) !!! Plus particulièrement par l'url fournie dans la page de configuration du plugin.
+
+![Capture d’écran des éléments a renseigner :](/images/XeeCloud1.png)
+
+Capture d’écran des éléments a renseigner :
+
+image::../images/XeeCloud1.png[]
+
+## Configuration des équipements
+
+La configuration des équipements Xee est accessible à partir du menu plugin : 
+
+*Géolocalisation* permet de faire le lien avec le plugin *Geoloc*
+
+*Authentification* permet de procéder à la connection au cloud Xee (saisie des identifiants Xee)
+
+*Véhicule* permet de sélectionner le vehicule correspondant.
+
+[NOTE]
+Le site Xee est interrogé toutes les minutes. Il peut y avoir des travaux sur le site Xee ou un probleme de connexion qui fait perdre l'authentification. Dans ce cas, il faut refaire l'authentification manuellement.

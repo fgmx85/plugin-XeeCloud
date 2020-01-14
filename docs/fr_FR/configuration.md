@@ -9,11 +9,7 @@ Pour accéder aux données du cloud Xee, il faut :
 
 !!! Pour la phase d'authentification, l’accès a Jeedom doit être possible de l’extérieur (à partir d'internet) !!! Plus particulièrement par l'url fournie dans la page de configuration du plugin.
 
-![Capture d’écran des éléments a renseigner :](/images/XeeCloud1.png)
-
-Capture d’écran des éléments a renseigner :
-
-image::../images/XeeCloud1.png[]
+![Capture d’écran des éléments a renseigner :](../images/XeeCloud1.png)
 
 ## Configuration des équipements
 

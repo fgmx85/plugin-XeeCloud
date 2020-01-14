@@ -4,8 +4,10 @@
 	"description" : "Plugin XeeCloud pour affichage des infos voitures connectees",
 	"licence" : "AGPL",
 	"author" : "mx85",
-	"require" : "3.0",
+	"require" : "3.2",
 	"category" : "devicecommunication",
-	"hasDependency" : 0,
-	"hasOwnDeamon" : 0
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"changelog" : "https://fgmx85.github.io/plugin-XeeCloud/#language#/changelog",
+	"documentation" : "https://fgmx85.github.io/plugin-XeeCloud/#language#/"
 }

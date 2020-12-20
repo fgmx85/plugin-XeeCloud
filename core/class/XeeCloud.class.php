@@ -29,7 +29,7 @@ class XeeCloud extends eqLogic {
 	
     /***************************** Methode static ****************************/ 
 
-    public static function pull($_options) {
+    public static function pull($_options = null) {
 		log::add('XeeCloud', 'debug', 'Pull Cron Debut');
 		foreach (eqLogic::byType('XeeCloud') as $XeeCloud) {
 		  if ($XeeCloud->getIsEnable() == 1) {

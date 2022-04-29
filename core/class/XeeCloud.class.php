@@ -147,7 +147,6 @@ class XeeCloud extends eqLogic {
 			$XeeCloudCmd->setType('info');
 			$XeeCloudCmd->setSubType('binary');
 			$XeeCloudCmd->setUnite('');
-			$XeeCloudCmd->setEventOnly(1);
 			$XeeCloudCmd->setIsHistorized(0);
 			$XeeCloudCmd->setOrder($order);
 			$order = $order + 1;
@@ -163,7 +162,6 @@ class XeeCloud extends eqLogic {
 			$XeeCloudCmd->setConfiguration('data', 'geolocalisation');
 			$XeeCloudCmd->setType('info');
 			$XeeCloudCmd->setSubType('string');
-			$XeeCloudCmd->setEventOnly(1);
 //			  	$XeeCloudCmd->setIsHistorized(0);
 			$XeeCloudCmd->setOrder($order);
 			$order = $order + 1;
@@ -189,7 +187,6 @@ class XeeCloud extends eqLogic {
 				$XeeCloudCmd->setType('info');
 				$XeeCloudCmd->setSubType($cmdtype);
 				$XeeCloudCmd->setUnite('');
-				$XeeCloudCmd->setEventOnly(1);
 				$XeeCloudCmd->setIsHistorized(0);
 				$XeeCloudCmd->setIsVisible(0);
 				$XeeCloudCmd->setOrder($order);
